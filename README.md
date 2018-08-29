@@ -2,24 +2,12 @@
 
 I challenged myself to see if I could create Minecraft in just one week... So lets go!
 
-Video: https://www.youtube.com/watch?v=Xq3isov6mZ8
-
-Note: I continued to edit after the 7 days, however the version seen in the video is found here https://github.com/Hopson97/MineCraft-One-Week-Challenge/tree/eb01640580cc5ad403f6a8b9fb58af37e2f03f0c
-
-And the "optimized" version can be found here: https://github.com/Hopson97/MineCraft-One-Week-Challenge/tree/792df07e9780b444be5290fd05a3c8598aacafc8 (~1 week later version) 
-
-There also is a version of this game with very good graphics, and things like a day/night cycle. However, it was causing rendering issues for many people. This version can be found here:
-https://github.com/Hopson97/MineCraft-One-Week-Challenge/tree/aa50ad8077ef0e617a9cfc336bdb7db81c313017
-
 # Other People's Projects
 
 This was made in a week, as a challenge for a video. There do exist other, more mature and developed Minecraft clones written in C++.
 
 MineTest here: https://github.com/minetest/minetest
 
-#Discords
-Hopson Official: https://discord.gg/feKbBwS
-Minecraft One Week: https://discord.gg/mjSutWm
 
 # Building
 
@@ -46,7 +34,6 @@ Include directories should be the SFML/include folder, glm/glm folder, and the l
 
 # Day One
 
-End of day one commit: https://github.com/Hopson97/MineCraft-One-Week-Challenge/tree/44ace72573833796da05a97972be5765b05ce94f
 
 The first day was spent setting up boilerplate code such as the game state/ game screen system, and the basic rendering engines, starting off with a mere quad.
 
@@ -65,7 +52,6 @@ Total Lines of Code | 829
 
 # Day Two
 
-End of day two commit: https://github.com/Hopson97/MineCraft-One-Week-Challenge/tree/98055215f735335de80193221a30c0bb8586fba5
 
 The second day was spent setting up the basic ChunkSection and various block classes.
 
@@ -86,8 +72,6 @@ Total Lines of Code | 1561
 
 
 # Day Three
-
-End of day three commit: https://github.com/Hopson97/MineCraft-One-Week-Challenge/commit/78bd637581542576372d75cf7638f76381e933b4
 
 To start the day off, I fixed the chunk drawing. Turns out I was telling OpenGL the indices were ```GL_UNSIGNED_BYTE```, but they were actually ```GL_UNSIGNED_INT```. This took 3 hours to work out...
 
